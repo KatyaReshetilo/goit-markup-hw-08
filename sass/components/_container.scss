@@ -1,0 +1,76 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  // max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (max-width: 479px) {
+    max-width: 100%;
+  }
+
+  @media (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.container--main-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 767.5px) {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
+
+.container--directions {
+  padding-bottom: 94px;
+  @media (max-width: 1199.5px) {
+    display: none;
+  }
+}
+
+.container--team {
+  background-color: var(--our-team-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  @media (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.container--clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.container--portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.container--footer {
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

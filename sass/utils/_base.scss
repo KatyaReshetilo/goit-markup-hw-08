@@ -1,0 +1,35 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.visually-hidden--input {
+  @extend .visually-hidden;
+
+  &:checked + .checkbox__check {
+    background-image: url(../images/check.svg);
+  }
+}
+
+h1 {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

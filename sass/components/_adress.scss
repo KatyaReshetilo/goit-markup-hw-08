@@ -1,0 +1,35 @@
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-header);
+  @media (max-width: 767.5px) {
+    margin-bottom: 60px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 82px;
+  }
+}
+
+.adress__link {
+  @extend .adress;
+  color: var(--adress-color);
+}
+
+.adress__map {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.adress__list {
+  margin: 0;
+  padding: 0;
+}
+
+.adress__item {
+  &:not(:last-child) {
+    display: inline-block;
+    margin-bottom: 9px;
+  }
+}
