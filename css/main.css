@@ -453,7 +453,6 @@ img {
 }
 
 .logo {
-  margin-right: 88px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -471,6 +470,12 @@ img {
   color: var(--main-header);
   margin-right: 0;
   margin-bottom: 20px;
+}
+
+@media (min-width: 480px) {
+  .logo {
+    margin-right: 88px;
+  }
 }
 
 @media (min-width: 1200px) {
