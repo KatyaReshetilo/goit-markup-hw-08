@@ -4,6 +4,9 @@
   line-height: 1.16;
   margin: 0;
   margin-bottom: 30px;
+  @media (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .clients {
